@@ -24,4 +24,13 @@ export class Pet {
 
   @Column()
   adoptionDate: Date;
+
+  @Column()
+  health: number;
+
+  @Column()
+  happiness: number;
+
+  @Column()
+  energy: number;
 }
